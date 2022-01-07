@@ -1,5 +1,6 @@
-# Funcion Input para procesar los valores
-numero1 = input("Escribe el primer Numero :")
-numero2 = input("Escribe el segundo Numero: ")
-resultado = numero1 + numero2
-print("El valor de la suma es:  ", resultado)
+#Calificacion del dia de 1 a 10
+calificacion = int(input("Como estuvo tu día (1 al 10) : "))
+if calificacion <= 10:
+    print("Mi dia estuvo: " , calificacion)
+else:
+    print("La calificación es solo hasta 10")
