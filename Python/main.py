@@ -1,11 +1,3 @@
-#Tipos Booleano o bool
-miVariable = True
-print(miVariable)
-
-miVariable =3 > 2
-print(miVariable)
-numero =10
-if numero >2 :
-    print("El resultado es verdadero")
-else:
-    print("El valor es falso")
+#Funcion Input para procesar los valores
+resultado = input("Escribe un Mensaje:")
+print("Valor proporcionado " ,resultado)
